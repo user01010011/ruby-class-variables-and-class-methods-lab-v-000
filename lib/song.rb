@@ -24,12 +24,12 @@ attr_accessor :name, :artist, :genre
   end
 
   def self.genre_count
-    @@genre_count = {"genre" => count}
+    @@genre_count = {"genre" => num}
     genre_count
   end
   
   def self.artist_count
-    @@artists = {"artist" => count}
+    @@artists = {"artist" => num}
     artists_count
   end
 
